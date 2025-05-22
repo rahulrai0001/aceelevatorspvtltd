@@ -414,17 +414,17 @@ div#preloader {
 	box-shadow: 2px 2px 5px #ccc, 0px 0px 0px #ccc;
 }
 .logo-bg{
-	background: #b4a242;
+	background: #5c5c58;
 	z-index: 10;
 }
 .logo-bg:after {
     content: "";
     position: absolute;
-    right: -100px;
+    right: -150px;
     top: 0;
     border-top: 100px solid transparent;
     border-bottom: 0 solid transparent;
-    border-left: 100px solid #b4a242;
+    border-left: 150px solid #5c5c58;
 	z-index: 10;
 }
 .logo-bg:before {
@@ -432,7 +432,7 @@ div#preloader {
     position: absolute;
     left: -90px;
     top: 0;
-    background: #b4a242;
+    background: #5c5c58;
     z-index: 10;
     width: 90px;
     height: 100%;
@@ -442,7 +442,7 @@ div#preloader {
 }
 .logo a {
     display: inline-block;
-    height: auto;
+    height: 100px;
     padding: 20px 0;
 }
 .main-menu ul.navbar-nav li {
@@ -616,7 +616,7 @@ div#preloader {
 }
 .header-area.stick .logo a {
     display: inline-block;
-    height: auto;
+    /* height: auto; */
     padding: 16px 0;
 }
 .header-area.stick .main-menu ul.navbar-nav li a {
@@ -641,17 +641,17 @@ div#preloader {
 }
 .header-area.stick .navbar-brand>img {
     display: block;
-    width: 160px;
+    /* width: 160px; */
     height: auto;
 }
 .header-area.stick .logo-bg:after {
-    border-top: 76px solid transparent;
+    border-top: 100px solid transparent;
 }
 /*----------------------------------------*/
 /*  2.3. Mobile Menu Area
 /*----------------------------------------*/
 .mobile-menu-area {
-    background: black none repeat scroll 0 0;
+    background: white none repeat scroll 0 0;
     padding: 10px 0px ;
 }
 .mean-container .mean-bar::after {
